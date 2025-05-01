@@ -7,16 +7,19 @@
 }
 
 body {
+    background-image: url("https://thumbs.dreamstime.com/b/%D1%84%D0%BE%D0%BD-%D0%BA%D0%B8%D0%BD%D0%BE-%D1%81-%D0%BA%D0%BB%D0%B5%D0%B9%D0%BC%D0%BE%D0%BC-%D0%B8-%D0%BA%D0%B8%D0%BD%D0%BE%D0%BF%D0%BB%D0%B5%D0%BD%D0%BA%D0%BE%D0%B9-217380477.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    background-color: #E1DFE4;
+    background-color: rgba(225, 223, 228, 0.2);
+
 
 }
 
 h1,h2 {
-    margin-left: 5px;
-    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    margin: 5px 0 5px 5px;
     background-color: cadetblue;
 }
 
@@ -28,11 +31,12 @@ p, img {
 span {
     display: flex;
     flex-align: center;
-    background-color: beige;
+    background-color: rgba(225, 223, 228, 0.5);
 
 }
 .img-actors{
     width: 10%;
+    object-fit: cover;
 }
 .text-img-actors{
     width: 10%;
